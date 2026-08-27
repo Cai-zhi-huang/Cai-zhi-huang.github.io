@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /_astro/
+
+Sitemap: https://cai-zhi-huang.github.io/sitemap-index.xml
