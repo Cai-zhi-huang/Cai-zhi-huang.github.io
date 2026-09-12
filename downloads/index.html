@@ -17,6 +17,10 @@
   a.dl{background:var(--accent);color:#fff;text-decoration:none;padding:10px 18px;border-radius:10px;font-size:14px;white-space:nowrap}
   a.dl:hover{opacity:.9}
   .back{display:inline-block;margin-top:24px;color:var(--muted);text-decoration:none;font-size:14px}
+  .parts{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+  .parts .dl{padding:8px 14px;font-size:13px}
+  .merge{color:var(--muted);font-size:13px;background:#13161c;border:1px solid #2a2e37;border-radius:10px;padding:12px 14px;margin:0}
+  .merge code{display:block;margin-top:6px;color:#cdd3da;background:#0c0e12;padding:8px 10px;border-radius:8px;font-size:12px;white-space:pre-wrap;word-break:break-all}
 </style>
 </head>
 <body>
@@ -36,6 +40,25 @@
         <p>原名「服务器.zip」· 约 50 MB</p>
       </div>
       <a class="dl" href="server.zip" download>下载</a>
+    </div>
+    <div class="card" style="display:block">
+      <div class="meta" style="margin-bottom:14px">
+        <b>hh 资源包（分卷压缩 · 共 10 卷 ≈ 939 MB）</b>
+        <p>原名「hh (2).zip」。因 GitHub 单文件上限 100MB，已切分为 10 个分卷，请全部下载后合并。</p>
+      </div>
+      <div class="parts">
+        <a class="dl" href="hh-2.zip.001" download>卷 1/10</a>
+        <a class="dl" href="hh-2.zip.002" download>卷 2/10</a>
+        <a class="dl" href="hh-2.zip.003" download>卷 3/10</a>
+        <a class="dl" href="hh-2.zip.004" download>卷 4/10</a>
+        <a class="dl" href="hh-2.zip.005" download>卷 5/10</a>
+        <a class="dl" href="hh-2.zip.006" download>卷 6/10</a>
+        <a class="dl" href="hh-2.zip.007" download>卷 7/10</a>
+        <a class="dl" href="hh-2.zip.008" download>卷 8/10</a>
+        <a class="dl" href="hh-2.zip.009" download>卷 9/10</a>
+        <a class="dl" href="hh-2.zip.010" download>卷 10/10</a>
+      </div>
+      <p class="merge">合并（Windows 命令提示符，在下载目录执行后解压）：<code>copy /b hh-2.zip.001+hh-2.zip.002+hh-2.zip.003+hh-2.zip.004+hh-2.zip.005+hh-2.zip.006+hh-2.zip.007+hh-2.zip.008+hh-2.zip.009+hh-2.zip.010 hh-2.zip</code>合并得到完整 <code>hh-2.zip</code>，用 7-Zip 或资源管理器解压即可。</p>
     </div>
     <a class="back" href="/">← 返回博客首页</a>
   </div>
