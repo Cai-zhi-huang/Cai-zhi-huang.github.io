@@ -1,20 +1,73 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="refresh" content="0; url=/blog/">
-  <link rel="canonical" href="/blog/">
-  <title>跳转中…</title>
-  <style>
-    html, body { height: 100%; margin: 0; background: #0f1115; color: #9aa3b2; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
-    .wrap { display: flex; align-items: center; justify-content: center; height: 100%; }
-    a { color: #60a5fa; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="CZH - 卸载管理器、博客与下载中心。永久免费，无广告。">
+<title>CZH · 博客与下载</title>
+<style>
+  *{box-sizing:border-box}
+  html,body{height:100%;margin:0}
+  body{
+    background:linear-gradient(160deg,#0f1115 0%,#161923 55%,#1b1524 100%);
+    color:#e8eaf0;
+    font-family:system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif;
+    display:flex;align-items:center;justify-content:center;padding:24px;
+  }
+  .card{
+    width:100%;max-width:560px;background:rgba(255,255,255,.05);
+    border:1px solid rgba(255,255,255,.1);border-radius:18px;padding:38px 34px;
+    box-shadow:0 20px 60px rgba(0,0,0,.45);
+  }
+  .logo{
+    width:52px;height:52px;border-radius:14px;margin-bottom:18px;
+    background:linear-gradient(135deg,#3b82f6,#8b5cf6);
+    display:flex;align-items:center;justify-content:center;
+    font-size:24px;font-weight:700;color:#fff;
+  }
+  h1{margin:0 0 6px;font-size:25px;letter-spacing:.5px}
+  .sub{margin:0 0 26px;color:#98a2b3;font-size:13.5px;line-height:1.7}
+  a.cardlink{
+    display:block;text-decoration:none;color:inherit;margin-bottom:12px;
+    border:1px solid rgba(255,255,255,.1);border-radius:13px;padding:16px 18px;
+    background:rgba(255,255,255,.035);transition:.18s;
+  }
+  a.cardlink:hover{
+    background:rgba(96,165,250,.14);border-color:rgba(96,165,250,.5);
+    transform:translateY(-1px);
+  }
+  .t{font-size:16px;font-weight:600;margin-bottom:5px;color:#f3f5f9}
+  .d{font-size:12.5px;color:#98a2b3;line-height:1.65}
+  .foot{margin-top:24px;font-size:12px;color:#6b7484;text-align:center;line-height:1.7}
+  .foot a{color:#7d8797}
+  @media(max-width:520px){.card{padding:28px 22px}h1{font-size:21px}}
+</style>
 </head>
 <body>
-  <div class="wrap">
-    <p>正在跳转到 <a href="/blog/">博客首页</a>…</p>
+  <div class="card">
+    <div class="logo">C</div>
+    <h1>CZH</h1>
+    <p class="sub">卸载管理器 · 博客 · 下载<br>一个完全免费的 Windows 卸载管理工具</p>
+
+    <a class="cardlink" href="/blog/">
+      <div class="t">进入博客</div>
+      <div class="d">开发记录、版本更新与折腾笔记</div>
+    </a>
+
+    <a class="cardlink" href="/downloads/">
+      <div class="t">下载中心</div>
+      <div class="d">卸载管理器安装包、便携版、MC 模组与服务器客户端</div>
+    </a>
+
+    <a class="cardlink" href="/version.json">
+      <div class="t">版本信息</div>
+      <div class="d">当前最新版本号（软件自动检查更新用）</div>
+    </a>
+
+    <div class="foot">
+      永久免费 · 无广告 · 不收集任何数据<br>
+      <a href="/blog/">直接访问博客 &rarr;</a>
+    </div>
   </div>
 </body>
 </html>
