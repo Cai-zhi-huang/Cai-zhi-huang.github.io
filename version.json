@@ -1,7 +1,9 @@
 {
   "latest_version": "0.1.0",
   "version_suffix": "正式版",
-  "download_url": "https://cai-zhi-huang.github.io/downloads/",
+  "download_url": "https://czh-blog-1474297707.cos.ap-guangzhou.myqcloud.com/downloads/",
+  "download_url_cn": "https://czh-blog-1474297707.cos-website.ap-guangzhou.myqcloud.com/downloads/",
+  "download_url_global": "https://cai-zhi-huang.github.io/downloads/",
   "changelog": "v0.1.0 正式版：新增磁盘占用排行、全局残留体检、开机自启动、搜索高亮与列拖拽记忆、卸载后自动残留检测、系统托盘常驻、状态筛选与操作历史。修复扫描卡死、图标错误、大小虚高等问题。",
   "release_date": "2026-10-06"
 }
