@@ -40,6 +40,17 @@
   .d{font-size:12.5px;color:#98a2b3;line-height:1.65}
   .foot{margin-top:24px;font-size:12px;color:#6b7484;text-align:center;line-height:1.7}
   .foot a{color:#7d8797}
+  .tag{
+    display:inline-block;font-size:11px;padding:2px 8px;border-radius:6px;
+    margin-left:8px;vertical-align:middle;font-weight:600;letter-spacing:.3px;
+  }
+  .tag.view{background:rgba(52,211,153,.14);color:#34d399;border:1px solid rgba(52,211,153,.3)}
+  .tag.dl{background:rgba(96,165,250,.14);color:#60a5fa;border:1px solid rgba(96,165,250,.3)}
+  .note{
+    margin:0 0 20px;padding:12px 14px;border-radius:11px;font-size:12.5px;line-height:1.7;
+    background:rgba(251,191,36,.08);border:1px solid rgba(251,191,36,.22);color:#d4b06a;
+  }
+  .note b{color:#f0c674}
   @media(max-width:520px){.card{padding:28px 22px}h1{font-size:21px}}
 </style>
 </head>
@@ -49,24 +60,29 @@
     <h1>CZH</h1>
     <p class="sub">卸载管理器 · 博客 · 下载<br>一个完全免费的 Windows 卸载管理工具</p>
 
-    <a class="cardlink" href="/blog/">
-      <div class="t">进入博客</div>
+    <div class="note">
+      <b>提示：</b>腾讯云 COS 桶按平台策略，网页文件在浏览器里会触发「下载」而非直接渲染。
+      所以<b>博客请点下面的 GitHub 链接</b>（正常显示）；<b>下载包直接点</b>即可，不受影响。
+    </div>
+
+    <a class="cardlink" href="https://cai-zhi-huang.github.io/blog/">
+      <div class="t">进入博客<span class="tag view">可直接浏览</span></div>
       <div class="d">开发记录、版本更新与折腾笔记</div>
     </a>
 
     <a class="cardlink" href="/downloads/">
-      <div class="t">下载中心</div>
+      <div class="t">下载中心<span class="tag dl">下载文件</span></div>
       <div class="d">卸载管理器安装包、便携版、MC 模组与服务器客户端</div>
     </a>
 
     <a class="cardlink" href="/version.json">
-      <div class="t">版本信息</div>
+      <div class="t">版本信息<span class="tag dl">JSON</span></div>
       <div class="d">当前最新版本号（软件自动检查更新用）</div>
     </a>
 
     <div class="foot">
       永久免费 · 无广告 · 不收集任何数据<br>
-      <a href="/blog/">直接访问博客 &rarr;</a>
+      <a href="https://cai-zhi-huang.github.io/blog/">直接访问博客 &rarr;</a>
     </div>
   </div>
 </body>
